@@ -1,6 +1,6 @@
 app:
-    name: angular-nodejs
-    code: angularnodejs
+    name: DocumentAppClient
+    code: DocumentAppClient
     notify: ranjit.m@orioninc.com
 
 build:
