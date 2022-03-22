@@ -1,7 +1,7 @@
 app:
     name: angular-nodejs
     code: angularnodejs
-    notify: fjoy@ecloudcontrol.com
+    notify: ranjit.m@orioninc.com
 
 build:
     version: 0.1
@@ -9,15 +9,15 @@ build:
     build_file: none
     output_files: output/*.zip
     image_template: nodeangularspa-14.17
-    repo: https://github.com/francisjoy/DocumentApp
+    repo: https://github.com/RanjitMattamal/DocumentApp
     args:
       WORK_DIR: /appz/server/Client
 
 deploy:
-    context: francisjoy/DEV
+    context: RanjitMattamal/DEV
     replicas: 1
     port:
-    - 3080
+    - 8080
     
 
 
